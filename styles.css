@@ -1,0 +1,171 @@
+cabecera {
+        resize: both;
+        overflow: auto;
+        display: grid;
+        background-color: lightskyblue;
+        place-items: center;
+    }
+
+    parrafo {
+        background-color:lightyellow;
+    }
+
+cabecera2 {
+  resize: both;
+       overflow: auto;
+       display: flex;
+       flex-wrap: wrap;
+       background-color: lightskyblue;
+       justify-content: center;
+}
+
+parrafo2 {
+  flex: 0 1 150px;
+  margin: 5px;
+  background-color: white;
+}
+
+parrafo3 {
+  flex: 0 1 150px;
+  background-color: white;
+}
+
+parrafo4 {
+  flex: 0 1 624px;
+  background-color: pink;
+}
+
+cabecera3 {
+  display: flex;
+  justify-content: center;
+}
+
+parrafo5{
+  flex: 0 1 100%;
+  background-color: white;
+}
+
+parrafo6{
+  resize: both;
+  overflow: auto;
+  flex: 0 1 100%;
+  background-color: orange;
+}
+
+parrafo7{
+  flex: 0 1 100%;
+  background-color: pink;
+}
+cabecera4 {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+parrafo8 {
+  flex: 0 1 150px;
+  background-color: pink;
+}
+
+parrafo9 {
+  flex: 0 1 150px;
+  background-color: blue;
+}
+
+parrafo10 {
+  flex: 0 1 150px;
+  background-color: orange;
+}
+
+parrafo11 {
+  flex: 0 1 150px;
+  background-color: yellow;
+}
+
+cabecera5 {
+  resize: both;
+  overflow: auto;
+  display: flex;
+    justify-content: center;
+    height: 115px;
+}
+cabecera6 {
+    resize: both;
+            overflow: auto;
+            display: grid;
+            grid-template-columns: auto 1fr auto;
+            grid-template-rows: auto 1fr auto;
+            background-color: lightskyblue;
+}
+
+parrafo12 {
+        background-color:lightpink;
+        grid-column: 1 / 4;
+    }
+
+    parrafo13 {
+        background-color: lightblue;
+    }
+
+    parrafo14 {
+        background-color: lightsalmon;
+    }
+
+    parrafo15 {
+        background-color: lightyellow;
+    }
+
+     parrafo16 {
+        background-color: lightgreen;
+        grid-column: 1 / 4;
+    }
+
+    cabecera5 {
+                resize: both;
+                overflow: auto;
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            }
+
+            parrafo8 {
+                background-color:lightpink;
+            }
+
+             parrafo9 {
+                background-color: lightblue;
+            }
+            parrafo10 {
+                background-color: lightsalmon;
+            }
+            parrafo11 {
+                background-color: lightyellow;
+            }
+
+            cabecera7 {
+                        resize: both;
+                        overflow: auto;
+                        display: grid;
+                        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+                        padding: 1em;
+                        border: 1px solid blue;
+                    }
+
+                    parrafo17 {
+                        background-color:lightpink;
+                    }
+                    parrafo18 {
+                        background-color: lightblue;
+                    }
+                    parrafo19 {
+                        background-color: lightsalmon;
+                    }
+                    parrafo20 {
+                        background-color: lightyellow;
+                    }
+
+body {
+  background-color: black;
+}
+
+h1 {
+  color: white;
+}
